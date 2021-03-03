@@ -8,7 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.appic.customviewexamples.finalTime.TimeSelector;
+import com.appic.customtimepicker.TimeSelector;
 
 public class MainActivity extends AppCompatActivity {
 

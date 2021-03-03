@@ -1,4 +1,4 @@
-package com.appic.customviewexamples.finalTime;
+package com.appic.customtimepicker;
 
 
 import android.content.Context;
@@ -19,8 +19,6 @@ import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
-
-import com.appic.customviewexamples.R;
 
 import java.util.ArrayList;
 

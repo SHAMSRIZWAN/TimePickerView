@@ -1,4 +1,4 @@
-package com.appic.customviewexamples.finalTime;
+package com.appic.customtimepicker;
 
 import android.util.Log;
 

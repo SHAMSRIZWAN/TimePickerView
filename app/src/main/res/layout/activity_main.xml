@@ -55,7 +55,7 @@
     </LinearLayout>
 
 
-    <com.appic.customviewexamples.finalTime.TimeSelector
+    <com.appic.customtimepicker.TimeSelector
         android:id="@+id/timeSelctor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
