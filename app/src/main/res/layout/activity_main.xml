@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+<!--    <com.appic.customviewexamples.PulseAnimationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--     />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/tvHour"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:layout_marginEnd="5dp"
+            android:text="12"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="30sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvMin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="00"
+            android:textSize="30sp"
+            android:layout_marginStart="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <com.appic.customviewexamples.finalTime.TimeSelector
+        android:id="@+id/timeSelctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:timeBgColor="@color/colorPrimaryDark"
+        app:timeSelectedHourColor="@android:color/white"
+        app:timeHourColor="@android:color/white"
+        app:timeMarkerColor="@color/colorAccent"
+        />
+<!--    <com.appic.customviewexamples.EditTextWithClear-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/digital_font"-->
+<!--        android:layout_marginTop="360dp"-->
+<!--        />-->
+
+
+<!--    <TimePicker-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="360dp"-->
+<!--        />-->
+
+</FrameLayout>

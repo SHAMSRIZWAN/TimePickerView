@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeSelector">
+        <attr name="timeBgColor" format="reference|color" />
+        <attr name="timeHourColor" format="reference|color" />
+        <attr name="timeSelectedHourColor" format="reference|color" />
+        <attr name="timeMarkerColor" format="reference|color" />
+<!--        <attr name="timeCustomTypeFace" format="string" />-->
+
+    </declare-styleable>
+</resources>
