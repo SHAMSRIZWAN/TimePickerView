@@ -59,10 +59,11 @@
         android:id="@+id/timeSelctor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:timeBgColor="@color/colorPrimaryDark"
+        app:timeBgColor="#ff9e03"
         app:timeSelectedHourColor="@android:color/white"
-        app:timeHourColor="@android:color/white"
-        app:timeMarkerColor="@color/colorAccent"
+        app:timeHourColor="#00fff7"
+        app:timeMarkerColor="#0051ff"
+
         />
 <!--    <com.appic.customviewexamples.EditTextWithClear-->
 <!--        android:layout_width="match_parent"-->
@@ -72,10 +73,10 @@
 <!--        />-->
 
 
-<!--    <TimePicker-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="360dp"-->
-<!--        />-->
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        />
 
 </FrameLayout>
